@@ -5,3 +5,5 @@
 ## NOTES
 * I think there are errors with the test:
 Example. [3, 1, 2, 4, 0] Expects False.
+Example. [0, 1] Expects False.
+Example. [0, -1, 1] Expects False.

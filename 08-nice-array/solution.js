@@ -1,5 +1,8 @@
 function isNice(arr){
   let array = arr;
+  if (array === '') {
+    return false;
+  }
   let isNice = true;
   for (let i = 0; i < array.length; i++) {
     let number = array[i];
